@@ -1,7 +1,9 @@
-import $ from 'jquery';
 import 'bootstrap';
 import './index.scss';
+import createNavbar from './components/navbar';
 
-$('#home').html('happy turkey day!');
+const initApp = () => {
+  createNavbar();
+};
 
-console.log('index.js connected');
+initApp();
