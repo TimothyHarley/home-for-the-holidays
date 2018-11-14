@@ -1,5 +1,30 @@
 import './navbar.scss';
+import firebase from 'firebase/app';
+import 'firebase/auth';
 import $ from 'jquery';
+
+const navbarEvents = () => {
+  $('.nav-link').on('click', (e) => {
+    if (e.target.id === 'navbar-button-logout') {
+      firebase.auth().signOut().then(() => {
+      }).catch((err) => {
+        console.error('you are still logged in', err);
+      });
+    } else if (e.target.id === 'navbar-button-friends') {
+      $('#auth').hide();
+      $('#friends').show();
+      $('#holidays').hide();
+    } else if (e.target.id === 'navbar-button-holidays') {
+      $('#auth').hide();
+      $('#friends').hide();
+      $('#holidays').show();
+    } else {
+      $('#auth').show();
+      $('#friends').hide();
+      $('#holidays').hide();
+    }
+  });
+};
 
 const createNavbar = () => {
   const domString = `<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -27,6 +52,7 @@ const createNavbar = () => {
 </nav>`;
 
   $('#navbar').html(domString);
+  navbarEvents();
 };
 
 export default createNavbar;
