@@ -1,0 +1,43 @@
+{
+	"friends": [{
+		"name": "Rachel H.",
+		"address": "123 Four st, Nashville, TN 37027",
+		"phoneNumber": "555-123-4567",
+		"email": "Rachel@badass.com",
+		"relationship": "Wife",
+		"isAvoiding": false,
+		"uid": "U14tzcHDFiNp7SAlUTuvxHupjER2"
+	}, {
+		"name": "Mark S.",
+		"address": "567 Eight st, Nashville, TN 372021",
+		"phoneNumber": "555-891-0123",
+		"email": "Mark@badass.com",
+		"relationship": "Tru Bro",
+		"isAvoiding": true,
+		"uid": "U14tzcHDFiNp7SAlUTuvxHupjER2"
+	}, {
+		"name": "Bert M.",
+		"address": "910 Eleven st, Nashville, TN 37022",
+		"phoneNumber": "555-456-7890",
+		"email": "Bert@badass.com",
+		"relationship": "BFF",
+		"isAvoiding": true,
+		"uid": "U14tzcHDFiNp7SAlUTuvxHupjER2"
+	}, {
+		"name": "Julie S.",
+		"address": "1213 Fourteen st, Nashville, TN 37023",
+		"phoneNumber": "555-098-7654",
+		"email": "Julie@badass.com",
+		"relationship": "Sis-in-law",
+		"isAvoiding": false,
+		"uid": "U14tzcHDFiNp7SAlUTuvxHupjER2"
+	}, {
+		"name": "Scrooge M.",
+		"address": "McDuck Way, Duckburg, CS 99901",
+		"phoneNumber": "555-321-0987",
+		"email": "Scrooge@badass.com",
+		"relationship": "Uncle",
+		"isAvoiding": false,
+		"uid": "11223344556677889900"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	"holidays": [{
+		"name": "Thanksgiving",
+		"Date": "11/22/2018",
+		"imageUrl": "http://www.todayifoundout.com/wp-content/uploads/2017/11/thanksgiving-turkey-640x427.png",
+		"location": "Home",
+		"startTime": "11am",
+		"uid": "U14tzcHDFiNp7SAlUTuvxHupjER2"
+	}, {
+		"name": "Christmas",
+		"Date": "12/25/2018",
+		"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/1995_Blue_Room_Christmas_tree.jpg",
+		"location": "Home",
+		"startTime": "11am",
+		"uid": "U14tzcHDFiNp7SAlUTuvxHupjER2"
+	}, {
+		"name": "Mallard Day",
+		"Date": "04/22/2019",
+		"imageUrl": "https://vignette.wikia.nocookie.net/disney/images/8/82/Holiday_in_Duckburg.jpg/revision/latest?cb=20130324031026",
+		"location": "Duckburg",
+		"startTime": "11am",
+		"uid": "11223344556677889900"
+	}]
+}
