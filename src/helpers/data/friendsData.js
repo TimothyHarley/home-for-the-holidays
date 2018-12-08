@@ -22,7 +22,7 @@ const getAllFriends = uid => new Promise((resolve, reject) => {
 });
 
 const getSingleFriend = friendId => new Promise((resolve, reject) => {
-  axios.get(`${apiKeys.firebaseKeys.databaseURL}/friends/${friendId}.json`)
+  axios.get(`${firebaseUrl}/friends/${friendId}.json`)
     .then((result) => {
       const singleFriend = result.data;
       singleFriend.id = friendId;
